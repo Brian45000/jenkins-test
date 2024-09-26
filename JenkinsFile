@@ -10,9 +10,9 @@ pipeline {
             steps {
                 // Installation de Python 3.11 et pip
                 sh '''
-                echo "vboxuser" | sudo -S apt-get update
-                echo "vboxuser" | sudo -S apt-get install -y python3.11 python3.11-venv python3.11-dev
-                echo "vboxuser" | sudo -S apt-get install -y python3-pip
+                echo "e04f20588aa4406ea0d977114b59b4c6" | sudo -S apt-get update
+                echo "e04f20588aa4406ea0d977114b59b4c6" | sudo -S apt-get install -y python3.11 python3.11-venv python3.11-dev
+                echo "e04f20588aa4406ea0d977114b59b4c6" | sudo -S apt-get install -y python3-pip
                 python3.11 --version
                 pip3 --version
                 '''
