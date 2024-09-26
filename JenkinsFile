@@ -31,7 +31,7 @@ pipeline {
             steps {
                 // Exécution du script Python depuis le dépôt
                 sh '''
-                python3.11 script.py
+                python3.11 detector.py
                 '''
             }
         }
